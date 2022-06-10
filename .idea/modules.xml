@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/OneDrive - inu.ac.kr/바탕 화면/hello-spring/hello-spring/gradle/gradle.iml" filepath="$USER_HOME$/OneDrive - inu.ac.kr/바탕 화면/hello-spring/hello-spring/gradle/gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
     </modules>

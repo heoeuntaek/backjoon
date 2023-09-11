@@ -1,7 +1,11 @@
 package Backjoon;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 //back10828
 public class Main {
@@ -10,17 +14,17 @@ public class Main {
 
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
-    public static void main(String[] args) {
-        int count;
+    public static void main(String[] args) throws IOException {
         Main b = new Main();
-        Scanner sc = new Scanner(System.in);
-        count = sc.nextInt();
-        String st;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int count = Integer.parseInt(br.readLine());
+
         for (int i = 0; i < count; i++) {
-            st = sc.next();
-            switch (st) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            String str = st.nextToken();
+            switch (str) {
                 case "push":
-                    int a = sc.nextInt();
+                    int a = Integer.parseInt(st.nextToken());
 //                    System.out.println("push");
                     b.push(a);
                     break;
@@ -34,11 +38,19 @@ public class Main {
                     break;
                 case "empty":
 //                    System.out.println("empty");
-                    b.empty();
+                    if(b.empty()){
+                        System.out.println(1);
+                    }else{
+                        System.out.println(0);
+                    };
                     break;
                 case "top":
 //                    System.out.println("top");
-                    b.top();
+                    if (b.empty()) {
+                        System.out.println(-1);
+                    } else {
+                        b.top();
+                    }
                     break;
 //        }
             }
@@ -58,7 +70,7 @@ public class Main {
         if (arrayList.size() == 0) {
             System.out.println(-1);
         } else {
-            System.out.println(arrayList.get(arrayList.size()-1));
+            System.out.println(arrayList.get(arrayList.size() - 1));
             arrayList.remove(arrayList.size() - 1);
         }
     }
@@ -70,11 +82,11 @@ public class Main {
     }
 //    top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
 
-    public void empty() {
+    public boolean empty() {
         if (arrayList.size() == 0) {
-            System.out.println(1);
+            return true;
         } else
-            System.out.println(0);
+            return false;
 
     }
 

@@ -1,0 +1,30 @@
+
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢ÿåİ
+@	java:S106"+Replace this use of System.out by a logger.(ûÄÏ
+7	java:S131""Add a default case to this switch.(å’ÎÑ
+V	java:S125"<This block of commented-out lines of code should be removed.(«„øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ø»Â
+Q	java:S125 "<This block of commented-out lines of code should be removed.(¸ïÛÌ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(Â¿áÕ
+E	java:S106&"+Replace this use of System.out by a logger.(ìÑÑÈÿÿÿÿÿ
+E	java:S106("+Replace this use of System.out by a logger.(óŠÕÎÿÿÿÿÿ
+7
+java:S1116)"Remove this empty statement.(ôŸìúÿÿÿÿ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(˜˜½“
+E	java:S106."+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ
+V	java:S1253"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Q	java:S125="<This block of commented-out lines of code should be removed.(Øæã
+Y
+java:S1155B">Use isEmpty() to check whether the collection is empty or not.(„°©ªøÿÿÿÿ
+E	java:S106C"+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(¦ğòûÿÿÿÿ
+@	java:S106M"+Replace this use of System.out by a logger.(–İÅ
+\
+java:S1126R"AReplace this if-then-else statement by a single return statement.(„°©ªøÿÿÿÿ
+Y
+java:S1155R">Use isEmpty() to check whether the collection is empty or not.(„°©ªøÿÿÿÿ
+Y
+java:S1155Z">Use isEmpty() to check whether the collection is empty or not.(§“òğşÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(¦ğòûÿÿÿÿ

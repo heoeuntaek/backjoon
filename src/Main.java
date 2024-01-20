@@ -1,10 +1,5 @@
-package Backjoon;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 //back10828
@@ -13,6 +8,7 @@ public class Main {
 //    push X: 정수 X를 스택에 넣는 연산이다.
 
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
+    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
     public static void main(String[] args) throws IOException {
         Main b = new Main();

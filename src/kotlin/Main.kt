@@ -15,5 +15,3 @@ class Person {
 
 }
 
-fun Main {
-}

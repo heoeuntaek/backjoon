@@ -1,0 +1,8 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•¼¼úÿÿÿÿ8ı…®‰Ó1
+[
+java:S1854">Remove this useless assignment to local variable "beforeTime".(õú‰ 8ÑÉï‰Ó1
+L
+java:S1481"/Remove this unused "beforeTime" local variable.(õú‰ 8ÓÉï‰Ó1
+G	java:S106	"+Replace this use of System.out by a logger.(ûÄÏ8Û‡®‰Ó1
+C	java:S131""Add a default case to this switch.(ù³¨Ğûÿÿÿÿ8Ø‡®‰Ó1

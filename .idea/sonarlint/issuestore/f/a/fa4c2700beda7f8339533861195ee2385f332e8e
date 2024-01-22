@@ -1,5 +1,6 @@
 
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÇŸ«ûûÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ûÄÏ
-V	java:S125"<This block of commented-out lines of code should be removed.(½Ö¥Áøÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(Õ–ÑÀ
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÇŸ«ûûÿÿÿÿ8›“—‰Ó1
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8¦“—‰Ó1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÖÍö8ª“—‰Ó1
+L	java:S106	"+Replace this use of System.out by a logger.(ìÒå¬ùÿÿÿÿ8Ïó—‰Ó1

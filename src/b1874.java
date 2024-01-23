@@ -11,7 +11,7 @@ public class b1874 {
 
         Stack<Integer> stack = new Stack<>();
 
-d
+
         int n = Integer.parseInt(br.readLine());
         int x = 1;
         for (int i = 0; i < n; i++) {

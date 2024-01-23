@@ -1,0 +1,11 @@
+
+Q
+java:S1066"/Merge this if statement with the enclosing one.(ßëõ¼ùÿÿÿÿ8»óÔÂÓ1
+Q
+java:S1066""/Merge this if statement with the enclosing one.(°Îùÿÿÿÿ8¼óÔÂÓ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÁİçÔşÿÿÿÿ8½óÔÂÓ1
+r
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8×ôÔÂÓ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(œû¿Ø8ØôÔÂÓ1
+G	java:S106	"+Replace this use of System.out by a logger.(ûÄÏ8ÚôÔÂÓ1

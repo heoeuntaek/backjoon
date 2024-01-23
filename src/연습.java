@@ -1,12 +1,23 @@
-import java.io.IOException;
+import java.io.*;
+import java.util.Stack;
 
 public class 연습 {
     public static void main(String[] args) throws IOException {
-        StringBuilder sb = new StringBuilder("abc");
-//        sb.deleteCharAt(3);
-        sb.insert(0, "x");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
 
-        System.out.println("sb = " + sb);
+        Stack<Integer> stack = new Stack<>();
+        System.out.println("stack = " + stack.peek());
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
 
+        if (stack.pop() == 1) {
+            System.out.println("true = " + true);
+        }
+
+        System.out.println("stack = " + stack.peek());
+        
     }
 }

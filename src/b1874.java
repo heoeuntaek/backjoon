@@ -13,7 +13,6 @@ public class b1874 {
 
 
         int n = Integer.parseInt(br.readLine());
-        int n = Integer.parseInt(br.readLine());
         int x = 1;
         for (int i = 0; i < n; i++) {
             int number = Integer.parseInt(br.readLine());
